@@ -722,10 +722,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 2
-  cloudProjectId: 77863f30-6e90-4f09-96f6-142468233e9c
+  cloudProjectId: 054d7fc0-b3ef-43d0-a653-b447c8b6e9bb
   framebufferDepthMemorylessMode: 0
-  projectName: siar-synesthesia
-  organizationId: siar_synesthesia
+  projectName: siar-synesthesia (2)
+  organizationId: fantasticdamage
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
