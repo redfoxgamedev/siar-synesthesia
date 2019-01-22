@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class coroutineTimer : MonoBehaviour {
 
-    public Animation anim;
+    public Animator anim;
 
     void Start()
     {
         StartCoroutine(Example());
 
-        anim = gameObject.GetComponent<Animation>();
+        anim = gameObject.GetComponent<Animator>();
       
     }
 
     IEnumerator Example()
     {
         print(Time.time);
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(10);
         print("Bloaw");
         anim.Play("dooropen");
     }
