@@ -1,0 +1,17 @@
+newmtl DarkGreyColor
+Kd 0.3396226 0.2130446 0.001601997
+d 1
+
+newmtl BlueColor
+Kd 0.2093272 0.5514193 0.9056604
+d 1
+
+newmtl Material2
+Kd 1 0 0
+d 1
+
+newmtl brown-paper-texture-for-background_1373-528
+map_Kd brown-paper-texture-for-background_1373-528.jpg
+Kd 1 1 1
+d 1
+
