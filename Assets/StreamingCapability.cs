@@ -8,6 +8,7 @@ public class StreamingCapability : MonoBehaviour
     void Start()
     {
         Oculus.Platform.Livestreaming.GetStatus();
+        //UnityEngine.XR.XRSettings.eyeTextureResolutionScale = 1.5f;
     }
 
     // Update is called once per frame
