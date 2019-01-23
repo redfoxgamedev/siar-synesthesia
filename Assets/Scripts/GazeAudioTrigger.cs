@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class GazeTest : MonoBehaviour
+public class GazeAudioTrigger : EventTrigger
 {
     public Renderer renderer;
     private Color initialColor;
@@ -15,6 +16,10 @@ public class GazeTest : MonoBehaviour
 
     public bool dependsOnChildren;
 
+
+    private SynAudio synAudioRef;
+    private Color glowingColor;
+    private Material customGlowingShader;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +43,24 @@ public class GazeTest : MonoBehaviour
 
         itemAudio = this.GetComponent<AudioSource>();
 
+       
+
+    }
+
+    private void OnEnable()
+    {
+        ////addition
+        synAudioRef = this.GetComponent<SynAudio>();
+
+        Debug.Log("Calling object: " + this.gameObject.name);
+        Debug.Log("Syn audio is " + synAudioRef);
+        glowingColor = synAudioRef.colorToGlow;
+        Debug.Log("Glowing color is " + glowingColor);
+
+        customGlowingShader = this.GetComponent<Renderer>().material;
+        Debug.Log("Material is " + customGlowingShader);
+
+
     }
 
     private Color[] getInitialColorsFrom(Renderer[] renderers)
@@ -59,6 +82,36 @@ public class GazeTest : MonoBehaviour
 
     }
 
+    public void glowOnEnter(){
+        customGlowingShader.SetColor("Color_565BCDE", glowingColor);
+        customGlowingShader.SetFloat("Vector1_65243CAA", 1f);
+
+        //reset
+        StopAllCoroutines();
+        itemAudio.volume = 1f;
+        itemAudio.Stop();
+        itemAudio.Play();
+    }
+
+    public void stopGlowOnExit(){
+        customGlowingShader.SetFloat("Vector1_65243CAA", 0f);
+
+        //slowly diminish the volume of the sound
+        StartCoroutine(diminishVolume());
+        //itemAudio.volume
+    }
+
+    IEnumerator diminishVolume(){
+
+        while (true){
+
+            itemAudio.volume = Mathf.Lerp(itemAudio.volume, 0f, 1.5f * Time.deltaTime);
+            yield return null;
+
+        }
+
+        //yield return null;
+    }
     
 
     public void onGazeEnter()
@@ -129,5 +182,15 @@ public class GazeTest : MonoBehaviour
         }
     }
 
-   
+    public override void OnPointerEnter(PointerEventData eventData)
+    {
+        //onGazeEnter();
+        glowOnEnter();
+    }
+
+    public override void OnPointerExit(PointerEventData eventData)
+    {
+        //onGazeExit();
+        stopGlowOnExit();
+    }
 }

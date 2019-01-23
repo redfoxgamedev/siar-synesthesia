@@ -29,7 +29,27 @@ ModelImporter:
     4300002: Cube_1
     4300004: Cube_2
     4300006: Cube_3
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownColor
+    second: {fileID: 2100000, guid: 7897555d21a73485ab8dcc35b6278309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkGreen
+    second: {fileID: 2100000, guid: 397815383a7e8443d864812d74e3d847, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkGreyColor
+    second: {fileID: 2100000, guid: dfab1b72266fe48719b030ae409e57c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown-paper-texture-for-background_1373-528
+    second: {fileID: 2100000, guid: 3437e0b29ec944eceae54da62c731884, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

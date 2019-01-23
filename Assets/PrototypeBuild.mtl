@@ -1,0 +1,37 @@
+newmtl WhiteColor
+Kd 1 1 1
+d 1
+
+newmtl Default_Prototype
+map_Kd GridBox_Default.png
+Kd 1 1 1
+d 1
+
+newmtl mat_ground
+Kd 0 0 0
+d 1
+
+newmtl Glass
+Kd 0.5019608 0.5019608 0.5019608
+d 0
+
+newmtl mat_gaze
+Kd 0.9056604 0.0555358 0.0555358
+d 1
+
+newmtl BlueColor
+Kd 0.2093272 0.5514193 0.9056604
+d 1
+
+newmtl GreyColor
+Kd 0.5019608 0.5019608 0.5019608
+d 1
+
+newmtl mat_building
+Kd 1 0.5744222 0
+d 1
+
+newmtl Wooden
+Kd 0.3113208 0.2175227 0
+d 1
+
