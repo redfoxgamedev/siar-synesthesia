@@ -446,6 +446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -728,6 +730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -1710,6 +1714,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -1931,6 +1937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -2133,6 +2141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -2345,6 +2355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -2611,6 +2623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -2713,6 +2727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -3148,6 +3164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -3510,6 +3528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -3954,6 +3974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -4318,6 +4340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -4358,50 +4382,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300006, guid: ecc7bb5d7d9304c709cb4ca0aaf7f5e7, type: 3}
---- !u!1 &919260849
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 919260850}
-  - component: {fileID: 919260851}
-  m_Layer: 0
-  m_Name: collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &919260850
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919260849}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.766, y: -0.246, z: -0.748}
-  m_LocalScale: {x: 1.2533, y: 0.64452446, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1851352832}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &919260851
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919260849}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &920921214 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: ede222fb9330247d38097bd255d98140,
@@ -4564,6 +4544,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -4892,6 +4874,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -5093,6 +5077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -5275,6 +5261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -5573,6 +5561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -5918,6 +5908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -6394,6 +6386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -6651,6 +6645,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -7864,6 +7860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01652d0354d441d924456562864648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
   renderer: {fileID: 0}
   childRenderers: []
   itemAudio: {fileID: 0}
@@ -8464,12 +8462,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.067070566, y: 1.6868275, z: 0.005970209}
   m_Center: {x: -30.056467, y: 3.386735, z: 15.439975}
---- !u!4 &1851352832 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400072, guid: 6001076345ad14ad48a0da35c39e49d7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1364714816}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1853591550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: ecc7bb5d7d9304c709cb4ca0aaf7f5e7,
