@@ -79,7 +79,65 @@ ModelImporter:
     4300020: pb-MergedObject-10708_7
     4300022: pb-MergedObject-10708_8
     4300024: pb-MergedObject-10708_9
-  externalObjects: {}
+    6400000: pb-MergedObject-10708_0
+    6400002: pb-MergedObject-10708_1
+    6400004: pb-MergedObject-10708_10
+    6400006: pb-MergedObject-10708_11
+    6400008: pb-MergedObject-10708_12
+    6400010: pb-MergedObject-10708_2
+    6400012: pb-MergedObject-10708_3
+    6400014: pb-MergedObject-10708_4
+    6400016: pb-MergedObject-10708_5
+    6400018: pb-MergedObject-10708_6
+    6400020: pb-MergedObject-10708_7
+    6400022: pb-MergedObject-10708_8
+    6400024: pb-MergedObject-10708_9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueColor
+    second: {fileID: 2100000, guid: 59c6326a11d57415881793538f521348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Prototype
+    second: {fileID: 2100000, guid: fdde299f846ea49dc8e17ebce4e448fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 1e2abc5191d8c46bb8549542f10fbb24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreyColor
+    second: {fileID: 2100000, guid: 7fac9a8ced5f844e0ac55d5861ed91ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteColor
+    second: {fileID: 2100000, guid: 2aaf9508e221a4b94bfcf112199d4b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wooden
+    second: {fileID: 2100000, guid: cc13151d9cb904fa28274873a1014447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_building
+    second: {fileID: 2100000, guid: 3ddb691d7ce2a43bc8a76e36ba15f3c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_gaze
+    second: {fileID: 2100000, guid: 9f383e093e1ce4d39a7a22207ff4ed1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_ground
+    second: {fileID: 2100000, guid: 21da05a13cc90405ba530f0b01cbe372, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -112,7 +170,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
