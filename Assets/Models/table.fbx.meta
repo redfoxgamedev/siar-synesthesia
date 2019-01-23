@@ -155,7 +155,33 @@ ModelImporter:
     2300000: polySurface29
     3300000: polySurface29
     4300000: polySurface29
-  externalObjects: {}
+    6400000: polySurface29
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: b707ec6d84a4c477a9a8c7530f30c9e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: navy
+    second: {fileID: 2100000, guid: e1ddc9194499749ca8adf5cd73204d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: d5887be6026244ed98fb37e15f0d49c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 22e66e768d8da488c83cd586d58db93c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow
+    second: {fileID: 2100000, guid: 0c29e32bae0a9472cb94fc57271a0677, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -188,7 +214,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
